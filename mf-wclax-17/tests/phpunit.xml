@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  colors="true"
+  stopOnFailure="false"
+  bootstrap="bootstrap.php"
+>
+  <testsuites>
+    <testsuite name="Plugin Test Suite">
+      <directory suffix="test.php">includes</directory>
+    </testsuite>
+  </testsuites>
+  <filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">../includes</directory>
+    </whitelist>
+  </filter>
+</phpunit>

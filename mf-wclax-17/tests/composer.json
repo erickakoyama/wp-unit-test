@@ -1,0 +1,14 @@
+{
+    "name": "ekoyama/phpunit",
+    "authors": [
+        {
+            "name": "Ericka Koyama",
+            "email": "ericka.koyama@gmail.com"
+        }
+    ],
+    "require-dev": {
+      "10up/wp_mock": "dev-master",
+      "phpunit/phpunit": "5.7.20",
+      "phpunit/php-code-coverage": "^4.0.4"
+    }
+}

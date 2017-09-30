@@ -6,9 +6,9 @@ The plugin template was largely based from: https://github.com/DevinVinson/WordP
 
 ### Environment Requirements
 
-To follow along locally with this workshop on your machine, you will need at least:
+To follow along locally with this workshop on your machine, you will need:
 
-* PHP 5.6
+* PHP >= 5.6
 * Composer PHP package manager
 * XDebug installed and enabled ( optionally for code coverage reports )
 

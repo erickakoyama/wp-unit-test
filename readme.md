@@ -20,7 +20,7 @@ See composer.json for project dependencies
 * Optionally setup plugin in a WordPress instance
 * `$ cd ${plugin_dir}/tests`
 * `$ composer install`
-* `$ phpunit --version`
+* `$ vendor/bin/phpunit --version`
 
 
 
